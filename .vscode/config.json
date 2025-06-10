@@ -1,0 +1,377 @@
+{
+    "version": "1.3.290.0",
+    "release_date": "2024-07-23",
+    "release": true,
+    "publisher": "LunarG, Inc.",
+    "copyright": "Copyright (c) 2016-2024 LunarG, Inc.",
+    "comments": "Building using the branch will build the most recent SDK on that branch. If you want to build a previous SDK on that branch, use the tag",
+    "repos": {
+        "Vulkan-Headers": {
+            "url": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "Release"
+            ]
+        },
+        "Vulkan-Loader": {
+            "url": "https://github.com/KhronosGroup/Vulkan-Loader.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "defines": [
+                "BUILD_DLL_VERSIONINFO={version_string}"
+            ],
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR"
+            }
+        },
+        "Vulkan-ValidationLayers": {
+            "url": "https://github.com/KhronosGroup/Vulkan-ValidationLayers.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "defines": [
+                "ANNOTATED_SPEC_LINK=\"\\\"https://vulkan.lunarg.com/doc/view/_MAGIC_VERSION_ID_.0/windows/_MAGIC_ANNOTATED_SPEC_TYPE_/vkspec.html\\\"\""
+            ],
+            "configs": [
+                "Release"
+            ],
+            "dependencies": {
+                "SPIRV-Headers": "SPIRV_HEADERS_INSTALL_DIR",
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR",
+                "Vulkan-Utility-Libraries": "VULKAN_UTILITY_LIBRARIES_INSTALL_DIR",
+                "SPIRV-Tools": "SPIRV_TOOLS_INSTALL_DIR",
+                "robin-hood-hashing": "ROBIN_HOOD_HASHING_INSTALL_DIR"
+            },
+            "windows_dependencies": {
+                "mimalloc": "MIMALLOC_INSTALL_DIR"
+            },
+            "vk_layer_settings_files": [
+                "layers/vk_layer_settings.txt"
+            ]
+        },
+        "Vulkan-ExtensionLayer": {
+            "url": "https://github.com/KhronosGroup/Vulkan-ExtensionLayer.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "Release"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR",
+                "Vulkan-Utility-Libraries": "VULKAN_UTILITY_LIBRARIES_INSTALL_DIR",
+                "SPIRV-Headers": "SPIRV_HEADERS_INSTALL_DIR",
+                "SPIRV-Tools": "SPIRV_TOOLS_INSTALL_DIR",
+                "Glslang": "GLSLANG_INSTALL_DIR"
+            },
+            "vk_layer_settings_files": [
+                "layers/vk_layer_settings.txt"
+            ]
+        },
+        "Khronos-Tools": {
+            "url": "https://github.com/KhronosGroup/Vulkan-Tools.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "defines": [
+                "VULKANINFO_BUILD_DLL_VERSIONINFO={version_string}"
+            ],
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR",
+                "Vulkan-Loader": "VULKAN_LOADER_INSTALL_DIR",
+                "Volk": "VOLK_INSTALL_DIR"
+            }
+        },
+        "Glslang": {
+            "url": "https://github.com/KhronosGroup/glslang.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "script": [
+                "python update_glslang_sources.py"
+            ],
+            "configs": [
+                "RelWithDebInfo",
+                "Debug"
+            ]
+        },
+        "LunarG-Tools": {
+            "url": "https://github.com/LunarG/VulkanTools.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR",
+                "Vulkan-Loader": "VULKAN_LOADER_INSTALL_DIR",
+                "jsoncpp": "JSONCPP_INSTALL_DIR",
+                "valijson": "VALIJSON_INSTALL_DIR",
+                "Vulkan-Utility-Libraries": "VULKAN_UTILITY_LIBRARIES_INSTALL_DIR"
+            },
+            "vk_layer_settings_files": [
+                "layersvt/vk_layer_settings.txt"
+            ]
+        },
+        "SPIRV-Cross": {
+            "url": "https://github.com/KhronosGroup/SPIRV-Cross.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "defines": [
+                "SPIRV_CROSS_SHARED=ON"
+            ],
+            "configs": [
+                "Release",
+                "Debug"
+            ]
+        },
+        "SPIRV-Tools": {
+            "url": "https://github.com/KhronosGroup/SPIRV-Tools.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "Release",
+                "Debug"
+            ],
+            "dependencies": {
+                "SPIRV-Headers": "SPIRV_HEADERS_INSTALL_DIR"
+            },
+            "defines": [
+                "SPIRV-Headers_SOURCE_DIR={root_path_forward}/SPIRV-Headers/repo",
+                "SPIRV_SKIP_TESTS=ON"
+            ]
+        },
+        "shaderc": {
+            "url": "https://github.com/google/shaderc.git",
+            "commit": "af042eb8e0035fc9a9401759fd38c5def525e8bd",
+            "script": [
+                "python update_shaderc_sources.py"
+            ],
+            "defines": [
+                "CMAKE_DEBUG_POSTFIX=d",
+                "SHADERC_SKIP_TESTS=ON",
+                "SHADERC_ENABLE_SHARED_CRT=ON",
+                "SHADERC_SKIP_COPYRIGHT_CHECK=ON"
+            ],
+            "subdir": "src",
+            "configs": [
+                "Release",
+                "Debug"
+            ],
+            "build_target": null
+        },
+        "DXC": {
+            "url": "https://github.com/microsoft/DirectXShaderCompiler.git",
+            "commit": "49d1ae9a029c404141050e270c05c9348b1011af",
+            "configs": [
+                "Release",
+                "Debug"
+            ],
+            "cmake_generate_args": [
+                "-C",
+                "cmake/caches/PredefinedParams.cmake"
+            ],
+            "build_target": null,
+            "windows_defines": [
+                "CMAKE_DEBUG_POSTFIX=d"
+            ]
+        },
+        "gfxreconstruct": {
+            "url": "https://github.com/LunarG/gfxreconstruct.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "windows_compiler": "Visual Studio 16",
+            "defines": [
+                "D3D12_SUPPORT=OFF",
+                "GFXRECON_TOCPP_SUPPORT=OFF"
+            ],
+            "vk_layer_settings_files": [
+                "layer/vk_layer_settings.txt"
+            ]
+        },
+        "SPIRV-Headers": {
+            "url": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "RelWithDebInfo"
+            ]
+        },
+        "SPIRV-Reflect": {
+            "url": "https://github.com/KhronosGroup/SPIRV-Reflect.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "RelWithDebInfo"
+            ]
+        },
+        "MoltenVK": {
+            "url": "https://github.com/KhronosGroup/MoltenVK.git",
+            "branch": "v1.2.10",
+            "platforms": [
+                "Darwin"
+            ]
+        },
+        "HardwareCaps": {
+            "url": "https://github.com/SaschaWillems/VulkanCapsViewer.git",
+            "tag": "3.41",
+            "check_latest_release": true,
+            "configs": [
+                "Release"
+            ],
+            "dependencies": {
+                "Vulkan-Loader": "VULKAN_LOADER_INSTALL_DIR",
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR"
+            }
+        },
+        "Volk": {
+            "url": "https://github.com/zeux/volk.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "RelWithDebInfo",
+                "Debug"
+            ],
+            "defines": [
+                "VOLK_INSTALL=ON",
+                "VOLK_PULL_IN_VULKAN=ON"
+            ],
+            "windows_defines": [
+                "CMAKE_DEBUG_POSTFIX=d"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR"
+            }
+        },
+        "VMA": {
+            "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git",
+            "check_latest_release": true,
+            "tag": "v3.1.0"
+        },
+        "GLM": {
+            "url": "https://github.com/g-truc/glm.git",
+            "check_latest_release": true,
+            "tag": "1.0.1"
+        },
+        "SDL": {
+            "url": "https://github.com/libsdl-org/SDL.git",
+            "tag": "release-2.30.5",
+            "check_latest_release": true,
+            "windows_defines": [
+                "CMAKE_DEBUG_POSTFIX=d"
+            ],
+            "configs": [
+                "RelWithDebInfo",
+                "Debug"
+            ]
+        },
+        "Vulkan-Docs": {
+            "url": "https://github.com/KhronosGroup/Vulkan-Docs.git",
+            "tag": "v1.3.290"
+        },
+        "robin-hood-hashing": {
+            "url": "https://github.com/martinus/robin-hood-hashing.git",
+            "tag": "3.11.5",
+            "check_latest_release": true,
+            "defines": [
+                "RH_STANDALONE_PROJECT=OFF"
+            ],
+            "configs": [
+                "Release"
+            ]
+        },
+        "Vulkan-Utility-Libraries": {
+            "url": "https://github.com/KhronosGroup/Vulkan-Utility-Libraries.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR"
+            }
+        },
+        "Vulkan-Profiles": {
+            "url": "https://github.com/KhronosGroup/Vulkan-Profiles.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkan-sdk-1.3.290.0",
+            "configs": [
+                "Release"
+            ],
+            "dependencies": {
+                "Vulkan-Loader": "VULKAN_LOADER_INSTALL_DIR",
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR",
+                "jsoncpp": "JSONCPP_INSTALL_DIR",
+                "valijson": "VALIJSON_INSTALL_DIR",
+                "Vulkan-Utility-Libraries": "VULKAN_UTILITY_LIBRARIES_INSTALL_DIR"
+            }
+        },
+        "jsoncpp": {
+            "url": "https://github.com/open-source-parsers/jsoncpp.git",
+            "tag": "1.9.5",
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "defines": [
+                "CMAKE_POSITION_INDEPENDENT_CODE=ON",
+                "JSONCPP_WITH_TESTS=OFF",
+                "JSONCPP_WITH_POST_BUILD_UNITTEST=OFF",
+                "JSONCPP_WITH_WARNING_AS_ERROR=OFF",
+                "JSONCPP_WITH_PKGCONFIG_SUPPORT=OFF",
+                "BUILD_SHARED_LIBS=OFF",
+                "BUILD_STATIC_LIBS=ON",
+                "BUILD_OBJECT_LIBS=OFF"
+            ]
+        },
+        "valijson": {
+            "url": "https://github.com/tristanpenman/valijson.git",
+            "tag": "v1.0.1",
+            "configs": [
+                "RelWithDebInfo"
+            ]
+        },
+        "mimalloc": {
+            "url": "https://github.com/microsoft/mimalloc.git",
+            "tag": "v2.1.2",
+            "configs": [
+                "RelWithDebInfo"
+            ],
+            "platforms": [
+                "Windows"
+            ],
+            "defines": [
+                "MI_BUILD_STATIC=ON",
+                "MI_BUILD_OBJECT=OFF",
+                "MI_BUILD_SHARED=OFF",
+                "MI_BUILD_TESTS=OFF"
+            ]
+        },
+        "yaml-cpp": {
+            "url": "https://github.com/jbeder/yaml-cpp.git",
+            "commit": "1d8ca1f35eb3a9c9142462b28282a848e5d29a91",
+            "configs": [
+                "Release"
+            ]
+        },
+        "CrashDiagnosticLayer": {
+            "url": "https://github.com/LunarG/CrashDiagnosticLayer.git",
+            "branch": "vulkan-sdk-1.3.290",
+            "tag": "vulkank-sdk-1.3.290.0",
+            "configs": [
+                "Release"
+            ],
+            "dependencies": {
+                "Vulkan-Headers": "VULKAN_HEADERS_INSTALL_DIR",
+                "Vulkan-Utility-Libraries": "VULKAN_UTILITY_LIBRARIES_INSTALL_DIR",
+                "SPIRV-Headers": "SPIRV_HEADERS_INSTALL_DIR",
+                "yaml-cpp": "YAML_CPP_INSTALL_DIR"
+            }
+        }
+    }
+}

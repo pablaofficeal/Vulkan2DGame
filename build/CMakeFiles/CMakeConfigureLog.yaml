@@ -1,0 +1,571 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:36:53.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.55
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:36:54.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.18
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:36:56.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.35
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:36:58.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.18
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:44:21.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.26
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:44:23.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.15
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:44:24.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.23
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:44:26.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.15
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:51:35.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.15
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:51:37.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.08
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:51:38.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.15
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.14.10+8b8e13593 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 10.06.2025 14:51:40.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        ðíÐéÐÇÐâð║ÐéÐâÐÇð©ÐÇð¥ð▓ð░ð¢ð¢Ðïð╣ ð▓Ðïð▓ð¥ð┤ ð▓ð║ð╗ÐÄÐçðÁð¢. ðñð¥ÐÇð╝ð░Ðéð©ÐÇð¥ð▓ð░ð¢ð©ðÁ ð┤ð©ð░ð│ð¢ð¥ÐüÐéð©ð║ð© ð║ð¥ð╝ð┐ð©ð╗ÐÅÐéð¥ÐÇð░ ð▒Ðâð┤ðÁÐé ð¥ÐéÐÇð░ðÂð░ÐéÐî ð©ðÁÐÇð░ÐÇÐàð©ÐÄ ð¥Ðêð©ð▒ð¥ð║. ðƒð¥ð┤ÐÇð¥ð▒ð¢ðÁðÁ Ðüð╝. https://aka.ms/cpp/structured-output.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+      LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) Ðü ð¥Ðêð©ð▒ð║ð¥ð╣.
+      
+      ð×Ðêð©ð▒ð║ð░ Ðüð▒ð¥ÐÇð║ð©.
+      
+      "C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (ÐåðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ) (1) ->
+      (ðªðÁð╗ðÁð▓ð¥ð╣ ð¥ð▒ÐèðÁð║Ðé Link) -> 
+        LINK : fatal error LNK1104: ?? ??????? ??????? ???? "MSVCRTD.lib" [C:\\Users\\pavlo\\Desktop\\ðØð¥ð▓ð░ÐÅ ð┐ð░ð┐ð║ð░ (7)\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj]
+      
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 1
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.10
+      
+      
+...
